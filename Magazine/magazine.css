@@ -33,11 +33,17 @@ nav {
 	padding-top: 10;
 	padding-bottom:10;
 }
-section {
-  float: left;
-  width: 63%;
+
+article {
+  display: inline-block;
+  width: 20%;
+ 
+   border: 3px solid black; 
 }
 
+section {
+	display: 
+}
 
 
 h1{	
