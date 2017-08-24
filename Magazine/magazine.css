@@ -3,7 +3,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #D1A4C8; 
+  background-color: #CEE3F6; 
   font-family: 'Raleway', sans-serif;
 }
 
@@ -13,41 +13,76 @@ body {
   padding: 0 10px;
 }
 
+div {
+	height: 300;
+    -webkit-animation-direction: alternate; 
+    animation-direction: alternate;
+}
 nav {
 	padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #8E4D81;
-    opacity: .7;
+    padding-bottom: 10px; 
     width: 100%;
     z-index: 1050;
     webkit-box-shadow: 2px 10px 5px 0px rgba(230, 205, 230, 1);
    -moz-box-shadow: 2px 10px 5px 0px rgba(230, 205, 230, 1);
-    box-shadow: 2px 5px 5px 0px #333;
+   /* box-shadow: 2px 5px 5px 0px #333; */
 }
-
+	
 aside{ 
   float: right;
+  width: 25%;
+  background-color:#CEE3F6 ; 
+
+  
 }
 
-nav {
-	padding-top: 10;
-	padding-bottom:10;
-}
+
+
 
 article {
-  display: inline-block;
-  width: 20%;
- 
-   border: 3px solid black; 
+  
+   display: inline-block;
+   width: 22%;
+   height: 320;
+   border-style: groove;
+   padding-left:25;
 }
 
 section {
-	display: 
+	height: 400;	
+	background-color: white;
+}
+
+
+
+h4{	
+	text-align: center;
+	 font-family: "TrebuchetMS", Times, serif;
 }
 
 
 h1{	
 	text-align: center;
+	 font-family: "TrebuchetMS", Times, serif;
 }
 
+
+h2{	
+	text-align: center;
+	 font-family: "TrebuchetMS", Times, serif;
+}
+
+
+h3{	
+	text-align: center;
+	 font-family: "TrebuchetMS", Times, serif;
+}
+p {
+    font-family: "TrebuchetMS", Times, serif;
+	height: 300;
+}
+
+img {
+	padding-left: 20;
+}
 
