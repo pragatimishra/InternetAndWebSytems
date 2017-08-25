@@ -1,0 +1,79 @@
+
+body{
+	background: #F5B041;
+}
+
+#main {
+ position:relative;
+ margin:2em auto .8em auto;
+ width:38em;
+ text-align:center;
+ font-family:Arial;
+ font-size:1em;
+ padding:.2em;
+}
+#main #shape {
+ text-align:center;
+}
+#second {
+ float:left;
+ margin:.3em 0;
+ max-width:72%;
+}
+#chosen_item {
+ float:center;
+ display:none;
+ width:100%;
+ background:#E67E22;
+ line-height:200%;
+
+}
+#chosen_item h4 {
+ margin:0 auto .1em auto;
+}
+#chosen_item .abc {
+ width:5em;
+}
+#chosen_item #vres {
+
+ display: inline;
+
+ background:#2E4053;
+ border-top:2px black;
+}
+#chosen_item #vres .vre {
+
+ text-align:left;
+ font-weight:bold;
+}
+#chosen_item #vres .vre em {
+ color:#2E4053;
+ display: center;
+
+}
+#shape_geo {
+ position:relative;
+ clear:both;
+ margin:.5em auto;
+ background:#C70039;
+ padding:0.1em 1em;
+
+}
+#shape_geo h4 {
+ margin:.3em auto;
+ text-align:center;
+}
+#shape_geo .shape_option {
+ float:left;
+ margin:.2em 5%;
+ text-align:left;
+}
+#shape_geo label {
+ display:block;
+ line-height:140%;
+ cursor:pointer;
+}
+#shape_geo label:hover {
+ background:#fbfc01;
+ color:#2E4053;
+}
